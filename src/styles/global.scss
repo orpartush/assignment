@@ -1,0 +1,14 @@
+// Basic
+@import './basics/variables';
+@import './basics/typography';
+@import './basics/functions';
+@import './basics/mixins';
+@import './basics/base';
+@import './basics/helpers';
+
+// Cmps
+@import './cmps/job-card';
+
+// Pages
+@import './pages/home-page';
+@import './pages/job-details';

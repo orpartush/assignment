@@ -1,0 +1,29 @@
+.job-card {
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+    header {
+        .title {
+            text-align: center;
+            margin: 5px auto;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .subtitle {
+            .location {
+            }
+            .date {
+            }
+        }
+    }
+    article {
+    }
+    .category {
+    }
+}
