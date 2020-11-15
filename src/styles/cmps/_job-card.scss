@@ -5,8 +5,10 @@
     border-radius: 4px;
     padding: 10px;
     margin: 10px;
+    transition: 0.2s;
     &:hover {
         cursor: pointer;
+        transform: scale(1.1);
     }
     header {
         .title {
@@ -15,15 +17,5 @@
             font-weight: bold;
             font-size: 1.2rem;
         }
-        .subtitle {
-            .location {
-            }
-            .date {
-            }
-        }
-    }
-    article {
-    }
-    .category {
     }
 }
